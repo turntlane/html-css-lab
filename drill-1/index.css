@@ -1,0 +1,48 @@
+
+
+* {
+    margin: 0;
+    box-sizing: border-box;
+    padding: 0;
+}
+
+/* body {
+    height: 100%;
+} */
+
+
+
+
+.top {
+    z-index: 5;
+    position: absolute;
+    width: 100%;
+    height: 150px;
+    top: 0;
+    background-color: rgb(89, 89, 89);
+}
+
+.left-bar {
+    position: absolute;
+    left: 0;
+    height: 100%;
+    width: 150px;
+    background-color: lightgray;
+}
+
+.right-bar {
+    position: absolute;
+    right: 0;
+    height: 100%;
+    width: 150px;
+    background-color: lightgray;
+}
+
+.bottom-bar {
+    position: absolute;
+    bottom: 0;
+    z-index: -1;
+    width: 100%;
+    height: 150px;
+    background-color: black;
+}
